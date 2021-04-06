@@ -1,0 +1,19 @@
+{
+  "name": "newsportal-laravel-vue",
+  "version": "1.0.0",
+  "description": "NewsPortal Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Endrit-seek/newsportal-laravel-vue.git"
+  },
+  "author": "Endrit Krasniqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Endrit-seek/newsportal-laravel-vue/issues"
+  },
+  "homepage": "https://github.com/Endrit-seek/newsportal-laravel-vue#readme"
+}
