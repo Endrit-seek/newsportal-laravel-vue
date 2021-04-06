@@ -1,19 +1,43 @@
 {
   "name": "newsportal-laravel-vue",
   "version": "1.0.0",
+  "private": true,
   "description": "NewsPortal Web Application",
-  "main": "index.js",
+  "author": {
+    "name": "Endrit Krasniqi"
+  },
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Endrit-seek/newsportal-laravel-vue.git"
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
   },
-  "author": "Endrit Krasniqi",
-  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "prettier": "^2.2.1"
+  },
+  "_id": "newsportal-laravel-vue@1.0.0",
   "bugs": {
     "url": "https://github.com/Endrit-seek/newsportal-laravel-vue/issues"
   },
-  "homepage": "https://github.com/Endrit-seek/newsportal-laravel-vue#readme"
+  "homepage": "https://github.com/Endrit-seek/newsportal-laravel-vue#readme",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Endrit-seek/newsportal-laravel-vue.git"
+  }
 }
